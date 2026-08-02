@@ -1,0 +1,46 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.twindo.com/category/blog/
+scheme: >-
+  Blog-based product updates ("What's New in Twindo" posts). Twindo states it
+  ships a new version of its iOS scanning app every two weeks, with additional
+  web-app updates announced on the blog. No dedicated versioned changelog page.
+release_cadence: iOS scanning app ships every two weeks (per Feb 2026 product update post)
+entries:
+- date: '2026-05-06'
+  title: "What's New in Twindo: Product Updates May 2026"
+  url: https://www.twindo.com/blog/whats-new-in-twindo-product-updates-may-2026/
+  breaking: false
+  highlights:
+  - Expanded Spatial Assets formats for project documentation
+  - SketchUp version upgrade
+- date: '2026-04-29'
+  title: Capture Photos While You Scan
+  url: https://www.twindo.com/blog/capture-photos-while-you-scan/
+  breaking: false
+  highlights:
+  - Photo capture during LiDAR scanning
+- date: '2026-04-13'
+  title: 'Capture More Than the Scan: Expanded Spatial Assets'
+  url: https://www.twindo.com/blog/expanded-spatial-assets-for-your-documentation-needs/
+  breaking: false
+  highlights:
+  - Expanded spatial asset types for documentation alongside scans
+- date: '2026-02-25'
+  title: "What's New in Twindo: Product Updates for February 2026"
+  url: https://www.twindo.com/blog/whats-new-in-twindo-product-updates-february-2026/
+  breaking: false
+  highlights:
+  - Workflow simplification and collaboration updates on the web app
+- date: '2026-02-05'
+  title: Canvas Is Now Twindo
+  url: https://www.twindo.com/blog/canvas-is-now-twindo/
+  breaking: false
+  highlights:
+  - Rebrand from Canvas (by Occipital) to Twindo with an expanded platform
+- date: '2026-02-04'
+  title: 'Introducing: Remote Scanning with Invite to Capture'
+  url: https://www.twindo.com/blog/introducing-remote-scanning-with-invite-to-capture/
+  breaking: false
+  highlights:
+  - Invite to Capture remote scanning feature released

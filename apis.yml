@@ -1,9 +1,28 @@
 aid: twindo
 name: Twindo
-description: 'Twindo is a company surfaced as a portfolio company of foundry-group and added to the API
-  Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Twindo (formerly Canvas, by Occipital Inc.) is a spatial intelligence platform
+  that turns LiDAR scans captured with an iPhone or iPad into 99%-accurate,
+  editable CAD and BIM as-built models compatible with Revit, AutoCAD, Archicad,
+  Chief Architect, SketchUp, Vectorworks, and 2020 Design. The platform spans
+  Scan to CAD, Plan to CAD, Point Cloud to BIM, a browser Web Viewer, and an
+  enterprise SDK + API for integrating reality capture and structured spatial
+  data into custom workflows. Twindo publishes a machine-readable "LLM JSON API"
+  company profile for LLMs and agents.
 url: https://raw.githubusercontent.com/api-evangelist/twindo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://www.twindo.com/wp-content/uploads/2024/09/1208264806111822.kNLjWHflYqS1WJHyqnyq_height640-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,11 +31,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
-apis: []
+- Spatial Intelligence
+- LiDAR
+- Scan to CAD
+- BIM
+- Digital Twins
+- Reality Capture
+- Architecture
+- Construction
+- Interior Design
+apis:
+- name: Twindo LLM JSON API
+  description: >-
+    Public machine-readable company profile Twindo publishes for LLMs and
+    agents (linked from the site footer as "LLM JSON API"): products, pricing,
+    output formats, use cases, case studies, and resources served as raw JSON.
+    Twindo's platform API (api.twindo.com/v1, token-authenticated) and SDK are
+    an enterprise/partner offering without public documentation.
+  humanURL: https://www.twindo.com/llm-api/
+  baseURL: https://www.twindo.com/llm-api/
+  tags:
+  - Company Profile
+  - LLM
+  - Machine-Readable
+  properties:
+  - type: Documentation
+    url: https://www.twindo.com/llm-api/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +68,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.twindo.com
+- type: Blog
+  url: https://www.twindo.com/category/blog/
+- type: Pricing
+  url: https://www.twindo.com/pricing/
+- type: SignUp
+  url: https://app.twindo.com/signup
+- type: GettingStarted
+  url: https://www.twindo.com/how-twindo-works/
+- type: Support
+  url: https://support.twindo.com
+- type: TermsOfService
+  url: https://www.twindo.com/occipital-terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.twindo.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/occipital
+- type: Authentication
+  url: authentication/twindo-authentication.yml
+- type: ChangeLog
+  url: changelog/twindo-changelog.yml
+- type: Lifecycle
+  url: lifecycle/twindo-lifecycle.yml
+- type: LLMsTxt
+  url: llms/twindo-llms.txt
+- type: WellKnown
+  url: well-known/twindo-well-known.yml
+- type: DomainSecurity
+  url: security/twindo-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1

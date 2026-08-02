@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: derived
+source: live probes of api.twindo.com + www.twindo.com blog
+versioning:
+  scheme: uri-path
+  current: v1
+  evidence: https://api.twindo.com/v1/ (401 authenticated API; root and other paths 404)
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No published deprecation policy found.
+sla:
+  url: null
+status_page: null
+status_page_notes: No status page found (status.twindo.com does not resolve).
+release_cadence: >-
+  iOS scanning app ships every two weeks; product updates announced on the blog
+  (see changelog/twindo-changelog.yml).
+deprecated_operations: []

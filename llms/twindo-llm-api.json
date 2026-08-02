@@ -1,0 +1,610 @@
+{
+    "business_name": "Twindo",
+    "former_name": "Canvas",
+    "parent_company": "Occipital Inc.",
+    "business_registration": {
+        "registrar": "Colorado Secretary of State",
+        "url": "https://www.sos.state.co.us/biz/BusinessEntityDetail.do?quitButtonDestination=BusinessEntityResults&nameTyp=ENT&masterFileId=20111436700&entityId2=20111436700&fileId=20111436700&srchTyp=ENTITY"
+    },
+    "website": "https://www.twindo.com",
+    "business_type": "Spatial Intelligence Software Platform",
+    "known_for": "LiDAR-powered mobile scanning that turns spaces, plans, and point clouds into 99% accurate, editable CAD and BIM as-builts compatible with leading professional design software.",
+    "mission": "Create a digital twin of every interior, transform it into structured data via AI, and power the full lifecycle of a property.",
+    "vision": "Make property reality capture and analysis more accessible and impactful using AI and mobile-device LiDAR technology.",
+    "location": {
+        "locale": "en-us"
+    },
+    "contact_methods": {
+        "contact": "https://www.twindo.com/contact-us",
+        "commercial_pricing": "https://www.twindo.com/contact-us-commercial-pricing/",
+        "support": "https://support.twindo.com"
+    },
+    "platform_overview": {
+        "type": "Spatial Intelligence Platform (Scan to CAD, Plan to CAD, Point Cloud to BIM)",
+        "target_market": "Architects, interior designers, contractors, and multi-site commercial operators",
+        "core_value": "Fast, accurate, editable as-built documentation captured with an iPhone or iPad",
+        "capture_method": "Mobile-device LiDAR scanning enhanced by proprietary 3D sensing technology",
+        "accuracy": "Typically within 1-2% of manual field measurements",
+        "experience": "15+ years in 3D sensing and computer vision",
+        "patents": "20+ patents"
+    },
+    "company_stats": {
+        "accuracy": "99%",
+        "square_feet_modeled": "100M+",
+        "professional_users": "12,000+",
+        "total_scans": "500,000+",
+        "patents": "20+",
+        "app_store_rating": "4.8 (U.S. App Store)"
+    },
+    "products": {
+        "Scan to CAD": {
+            "description": "LiDAR-powered iPhone or iPad scans transformed into accurate, editable CAD and BIM as-builts",
+            "capture": "Scan a space in minutes with a supported iOS device",
+            "output": "As-built CAD files, floor plans, and measurement reports"
+        },
+        "Plan to CAD": {
+            "description": "Upload an existing 2D floor plan and convert it into editable 3D CAD models",
+            "status": "Beta",
+            "output": [
+                "2D Floor Plans",
+                "Chief Architect",
+                "Revit",
+                "SketchUp"
+            ]
+        },
+        "Point Cloud to BIM": {
+            "description": "Convert point cloud data into structured BIM models",
+            "status": "Beta"
+        },
+        "Web Viewer": {
+            "description": "Interactive 3D viewer for sharing, measuring, and annotating models in the browser",
+            "capabilities": [
+                "Share and collaborate without CAD software",
+                "Measure the model",
+                "View spatial annotations",
+                "Virtually revisit scanned spaces"
+            ]
+        },
+        "Integrations (SDK + API)": {
+            "description": "SDK and API access for integrating Twindo reality capture and spatial data into custom workflows"
+        }
+    },
+    "platform_features": {
+        "LiDAR Reality Capture": "Proprietary process enhances Apple device LiDAR sensors for greater accuracy and detail than standard scanning apps",
+        "AI Segmentation & Measurement": "AI-powered segmentation and measurement technology reduces errors and produces design-ready models",
+        "99% Accuracy": "As-built measurements typically within 1-2% of manually verified field measurements",
+        "Editable & Layered Files": "Outputs are editable, layered, and design-ready for immediate use in professional software",
+        "Reference Dimensions": "Manually verified field measurements can be submitted to override scan data where needed",
+        "Fast Turnaround": "Spaces under 1,000 sqft are typically returned in about two business days, with optional rush delivery",
+        "Spatial Data & Digital Twins": "Reality capture converted into structured spatial data across CAD/BIM, APIs, and 3D visualizations"
+    },
+    "output_formats": {
+        "3D CAD / BIM Models": {
+            "description": "Editable, layered, design-ready 3D models compatible with leading professional software",
+            "compatible_software": [
+                "Archicad",
+                "AutoCAD",
+                "Chief Architect",
+                "Revit",
+                "SketchUp",
+                "Vectorworks",
+                "2020 Design"
+            ]
+        },
+        "2D Floor Plans": {
+            "description": "Editable AutoCAD file for two-dimensional design plus a shareable PDF for collaboration"
+        },
+        "Measurement Report": {
+            "description": "Schedule of quantities and key dimensions for floors, walls, doors, windows, and countertops for bidding and takeoffs"
+        },
+        "Web Viewer": {
+            "description": "Interactive 3D web viewer to view, measure, annotate, and share models with no CAD software required"
+        },
+        "Draft": {
+            "description": "Instant simplified models generated directly from a scan"
+        },
+        "Exteriors": {
+            "description": "3D scanning and modeling of single-story and most two-story building exteriors"
+        }
+    },
+    "supported_devices": [
+        "iPad Pro 2020 or newer",
+        "iPhone 12 Pro / Pro Max or newer"
+    ],
+    "use_cases": {
+        "As-Built Documentation": "Create accurate existing-conditions models to begin design and construction projects",
+        "Remodels & Renovations": "Capture spaces quickly to plan renovations without repeat site visits",
+        "Bidding & Takeoffs": "Use measurement reports for schedules of quantities and accurate bids",
+        "Collaboration & Sharing": "Share interactive 3D models with clients and teams through the web viewer",
+        "Floor Plan Conversion": "Turn existing 2D floor plans into editable 3D models with Plan to CAD",
+        "Exterior Modeling": "Scan and model building exteriors alongside or independent of interiors",
+        "Multi-Site Standardization": "Produce consistent spatial documentation across retail, QSR, and residential portfolios"
+    },
+    "industries_served": {
+        "Architects": {
+            "description": "As-built CAD and BIM documentation to start projects from accurate existing conditions"
+        },
+        "Interior Designers": {
+            "description": "Editable, design-ready models so designers spend less time measuring and more time designing"
+        },
+        "General Contractors": {
+            "description": "Accurate measurements and floor plans for remodels, bids, and takeoffs"
+        },
+        "Multi-Family Residential": {
+            "description": "Scalable scanning and modeling across apartments, units, and residential portfolios"
+        },
+        "Multi-Site Retail": {
+            "description": "Consistent as-built documentation across distributed store locations"
+        },
+        "Quick Service Restaurants": {
+            "description": "Standardized spatial data for QSR rollouts, remodels, and site planning"
+        },
+        "Hospitality": {
+            "description": "Reality capture and as-builts for hotels and hospitality properties"
+        },
+        "Fire Safety": {
+            "description": "Accurate building documentation to support fire safety planning and compliance"
+        }
+    },
+    "pricing": {
+        "model": "Subscription tiers with per-square-foot as-built conversion pricing",
+        "residential_plans": {
+            "Starter": {
+                "price": "$0/mo",
+                "projects_per_month": "Up to 2",
+                "description": "Pay only for the as-built conversions you need"
+            },
+            "Essentials": {
+                "price": "$29/mo",
+                "projects_per_month": "Up to 5",
+                "description": "Discounted conversion pricing, more projects, and priority support for solo pros to small teams"
+            },
+            "Scale": {
+                "price": "Contact for pricing",
+                "projects_per_month": "6+",
+                "description": "Annual plans with no project limit, priority delivery, dedicated account manager, and team accounts"
+            }
+        },
+        "conversion_rates": {
+            "Standard 3D CAD/BIM Formats": {
+                "monthly": "$0.26/sqft",
+                "annual": "$0.22/sqft"
+            },
+            "Select 3D Formats + Measurement Report": {
+                "monthly": "$0.29/sqft",
+                "annual": "$0.25/sqft"
+            },
+            "2D Floor Plan": {
+                "monthly": "$0.18/sqft",
+                "annual": "$0.14/sqft"
+            }
+        },
+        "commercial": {
+            "description": "Custom pricing for all spaces larger than 8,000 sqft",
+            "factors": [
+                "Format (2D or 3D)",
+                "Level of Development (LOD 100, 200, or Custom)",
+                "File structure (Standard or Custom)",
+                "Square footage volume"
+            ],
+            "contact": "https://www.twindo.com/contact-us-commercial-pricing/"
+        }
+    },
+    "company_history": [
+        "Originated from Occipital, a pioneer in 3D sensing hardware and software",
+        "Built RedLaser, a barcode-scanning app with over two million downloads, later acquired by eBay",
+        "Created the Structure Sensor, the first mobile 3D sensor, funded through a $1.2M Kickstarter campaign",
+        "Featured in Apple's 2020 keynote introducing built-in iPhone LiDAR",
+        "Transitioned from a hardware focus to an AI and software-focused spatial intelligence platform",
+        "Rebranded from Canvas to Twindo"
+    ],
+    "media_coverage": [
+        "Fast Company",
+        "Fine Homebuilding",
+        "Furniture Today",
+        "This Old House",
+        "Business of Home",
+        "Qualified Remodeler",
+        "Kitchen & Bath Business",
+        "Pro Remodeler"
+    ],
+    "case_studies": [
+        {
+            "title": "How Design-Build Firm Woodhull Uses Twindo to Close More Contracts",
+            "url": "https://www.twindo.com/blog/how-design-build-firm-woodhull-uses-twindo-to-close-more-contracts/",
+            "date": "2026-07-02T14:24:42-07:00",
+            "excerpt": "&#8220;You mean I gotta pay you $4,000 to measure this building before we can do anything interesting?&#8221;  That&#8217;s the pushback Patrick Boothe, partner and principal architect at Woodhull, heard from clients.  Before Twindo, that&#8217;s exactly how the process worked: send a team member to hand measure the site, build the model from scratch, and only [&hellip;]"
+        },
+        {
+            "title": "I’ve Helped Transform Hundreds of Homes. Here’s What the Best Remodels Have in Common",
+            "url": "https://www.twindo.com/case-study/ive-helped-transform-hundreds-of-homes-heres-what-the-best-remodels-have-in-common/",
+            "date": "2026-06-15T12:43:55-07:00",
+            "excerpt": "I’ve spent years helping homeowners see what’s possible in their homes. Kitchens, bathrooms, whole-home renovations: every project starts with helping someone see what their home could become. But before any of that happens, there’s another question that has to be answered first: What are we actually working with? For most of my career, getting that [&hellip;]"
+        },
+        {
+            "title": "After 37 Years of Kitchen Design, It Takes a Lot to Impress Me",
+            "url": "https://www.twindo.com/case-study/after-37-years-of-kitchen-design-it-takes-a-lot-to-impress-me/",
+            "date": "2026-06-08T10:10:25-07:00",
+            "excerpt": "I’ve been designing kitchens and baths for more than 37 years. In that time, I’ve seen just about every tool, technology, and workflow promise to make the process easier, faster, or more accurate. And I can comfortably say: Most fall short.  I’ve always believed that great design starts with great information. Before I can think [&hellip;]"
+        },
+        {
+            "title": "From 9 Projects to 40: How Michaela Shields Scaled M. Shields Design With Twindo",
+            "url": "https://www.twindo.com/case-study/m-shields-design-scales-with-twindo/",
+            "date": "2026-05-20T10:45:26-07:00",
+            "excerpt": "For interior designer Michaela Shields, founder of M. Shields Design, the problem was never creativity. It was time. Before Twindo, every project began with a tape measure, hand sketches, and hours spent rebuilding spacesmanually in CAD. Measuring existing conditions could take anywhere from 30 minutes to 4 hours, depending on the scope. Then came another [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: McManus Kitchen &#038; Bath",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-mcmanus-kitchen-bath/",
+            "date": "2024-09-10T03:26:24-07:00",
+            "excerpt": "“Our whole process is about service, speed, and making it easier for our clients. Twindo helps us do all three better.” – Paul McManus, President and Owner, McManus Kitchen &amp; Bath McManus Kitchen &amp; Bath is a design-build firm focused on kitchen and bathroom remodeling in Tallahassee, Florida. Led by Paul McManus, the six-person firm [&hellip;]"
+        },
+        {
+            "title": "From Hours to Minutes: How Twindo Transforms Interior Design Workflows",
+            "url": "https://www.twindo.com/case-study/from-hours-to-minutes-how-canvas-transforms-interior-design-workflows/",
+            "date": "2024-09-09T17:35:44-07:00",
+            "excerpt": "From Hours to Minutes: How Twindo Transforms Interior Design Workflows Design isn&#8217;t just about aesthetics; it&#8217;s about function, precision, and efficiency. Yet, for many interior designers, time-consuming manual measurements and recreating existing layouts can erode hours that might be better spent on creativity and expression. Enter Twindo, a revolutionary tool that is reshaping the way [&hellip;]"
+        },
+        {
+            "title": "Ahead of the Curve: Michelle Blemel&#8217;s Fusion of Design and Technology",
+            "url": "https://www.twindo.com/case-study/ahead-of-the-curve-michelle-blemels-fusion-of-design-and-technology/",
+            "date": "2024-04-30T04:03:06-07:00",
+            "excerpt": "In Pasadena, California, interior designer Michelle Blemel is at the forefront of blending traditional design principles with cutting-edge technology. Her studio, Amberleaf, specializing in both residential and commercial interior design, has garnered acclaim for its ability to tailor projects to each client&#8217;s unique vision, offering a comprehensive array of services from furniture selection to complete renovations. But [&hellip;]"
+        },
+        {
+            "title": "Innovating Spaces: Ranney Blair Weidmann&#8217;s Revolution in Design with the Twindo App",
+            "url": "https://www.twindo.com/blog/innovating-spaces-ranney-blair-weidmanns-revolution-in-design-with-the-canvas-app/",
+            "date": "2024-02-22T03:54:40-07:00",
+            "excerpt": "In the creative world of design and construction, where creativity meets precision, the introduction of the Twindo app marks a pivotal shift. This innovative app is changing how real-world spaces are digitized, blending precision with efficiency like never before. Leading this transformation is Ranney Blair Weidmann, an award-winning remodeling firm in Atlanta. Celebrated for their inspired [&hellip;]"
+        },
+        {
+            "title": "Building Hope: How Rescue Rebuild Is Redefining Shelter Spaces with Twindo",
+            "url": "https://www.twindo.com/blog/building-hope-how-rescue-rebuild-is-redefining-shelter-spaces-with-canvas/",
+            "date": "2023-12-24T03:47:30-07:00",
+            "excerpt": "A structure is just that, a structure, until vision and purpose turn it into something more. That “something more” is what the team at Greater Good Charities’ Rescue Rebuild strives for every day. They started with renovating animal shelters, but they soon realized the potential to grow beyond that. Now they build comforting, enriching spaces for [&hellip;]"
+        },
+        {
+            "title": "Designing the Future: How Twindo is Streamlining Architecture Workflows",
+            "url": "https://www.twindo.com/case-study/designing-the-future-how-canvas-is-streamlining-architecture-workflows/",
+            "date": "2023-09-26T03:28:06-07:00",
+            "excerpt": "Architects thrive on bringing visions to life and transforming spaces. However, the demanding nature of the profession often means you’re spending time in meetings, managing projects, and handling paperwork and documentation. Traditional methods of creating as-built drawings, field measurements, and CAD drawings can be time-consuming and expensive. Enter Twindo, a revolutionary tool that transforms how [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Christensen Design Studio",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-christensen-design-studio/",
+            "date": "2022-10-10T03:43:42-07:00",
+            "excerpt": "“Using Twindo is like having another employee, a design assistant who prepares models for me. Twindo has enabled me to work faster and easier.” – Shannon Christensen, Christensen Design Studio Shannon Christensen, NCIDQ, IDS is an interior designer based in Portland, Oregon. She takes on about twenty projects per year on her own, in addition to assisting other interior designers with SketchUp [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Lotus Construction Group",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-lotus-construction-group/",
+            "date": "2022-09-10T02:55:39-07:00",
+            "excerpt": "&#8220;Most of my competitors crawl around on the floor with a tape measure and paper. I&#8217;m walking around literally pulling their space into an iPad.&#8221; &#8211; Walter Faustlin, Designer &nbsp; Lotus Construction Group is a 6-person design-build and remodeling firm located in Southern California which performs about 12 high-end renovation projects per year. The Challenge Creating [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Thornton Weiler Architect",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-thornton-weiler-architect/",
+            "date": "2022-08-08T03:12:49-07:00",
+            "excerpt": "“The combination of Twindo and Chief Architect allows us to take on more work than we did in the past. No more tedious measuring and creating as-built plans!” &#8211; Thornton Weiler, Architect Thornton Weiler is an architect based in the San Francisco Bay Area. Weiler and his associate, Neil Brorsen, offer a full range of architectural [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Noz Design",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-noz-design/",
+            "date": "2022-06-10T03:33:19-07:00",
+            "excerpt": "“With over 20 active projects at a time, there’s always something else we could be doing. Time and energy saved is time and energy well spent somewhere else.” – Noz Nozawa, Principal Interior Designer + Owner, Noz Design Noz Design is an interior design firm based in San Francisco, California led by principal designer Noz Nozawa. In 2020, Noz was [&hellip;]"
+        }
+    ],
+    "blog_posts": [
+        {
+            "title": "Is Scan to CAD Worth It? A Cost-Benefit Breakdown",
+            "url": "https://www.twindo.com/blog/is-scan-to-cad-worth-it-a-cost-benefit-breakdown/",
+            "date": "2026-07-21T09:00:22-07:00",
+            "excerpt": "For most architects, designers, and construction pros, the question isn&#8217;t whether accurate as-built documentation matters. It&#8217;s whether paying for a service to produce it is actually worth it compared to doing it yourself.  Here&#8217;s an honest breakdown comparing Twindo Scan to CAD to hand measuring and modeling costs. What You Can Expect to Pay with [&hellip;]"
+        },
+        {
+            "title": "Why Twindo Charges by the Square Foot (And What That Means for Your Budget)",
+            "url": "https://www.twindo.com/blog/why-twindo-charges-by-the-square-foot-and-what-that-means-for-your-budget/",
+            "date": "2026-07-16T09:00:43-07:00",
+            "excerpt": "If you&#8217;ve looked at Twindo&#8217;s pricing and wondered why it works the way it does, here&#8217;s the tl;dr: per-square-foot pricing keeps costs transparent and predictable, and once you understand how it works, estimating your project costs is straightforward. The Basic Model Twindo is free to download, scan, and measure. Scanning is always free. You pay [&hellip;]"
+        },
+        {
+            "title": "5 Things General Contractors Should Know Before Their First Twindo Scan",
+            "url": "https://www.twindo.com/blog/5-things-general-contractors-should-know-before-their-first-twindo-scan/",
+            "date": "2026-07-14T09:00:14-07:00",
+            "excerpt": "If you&#8217;ve been skeptical about whether a phone-based scan fits into a real construction workflow, you&#8217;re not alone. Most general contractors come to Twindo with reasonable doubts, usually about accuracy, file compatibility, or whether the time savings are real. Here&#8217;s what they tend to find out once they actually start scanning. 1. Scanning Speeds Up [&hellip;]"
+        },
+        {
+            "title": "5 Things Interior Designers Want to Know Before Using Twindo",
+            "url": "https://www.twindo.com/blog/5-things-interior-designers-want-to-know-before-using-twindo/",
+            "date": "2026-07-09T09:00:24-07:00",
+            "excerpt": "If you&#8217;ve been curious about Twindo but not quite sure it fits the way you work, you&#8217;re not alone. Here&#8217;s what interior designers most often want to know before their first scan and what they find out once they start using it. 1. How Long Does It Actually Take to Scan a Space? For a [&hellip;]"
+        },
+        {
+            "title": "Chief Architect As-Built App vs. Twindo: How the Two As-Built Tools Compare",
+            "url": "https://www.twindo.com/blog/3d-modeling/chief-architect-as-built-app-vs-twindo-how-the-two-as-built-tools-compare/",
+            "date": "2026-07-08T08:52:30-07:00",
+            "excerpt": "If you’re a design professional using Chief Architect, you’ve probably heard of Chief Architect’s new Chief As-Built scanning app. While both Twindo and Chief As-Builts allow you to scan spaces and import them into Chief Architect, it’s important to note the differences between the two apps and how they affect your design workflow. Here&#8217;s the [&hellip;]"
+        },
+        {
+            "title": "How Design-Build Firm Woodhull Uses Twindo to Close More Contracts",
+            "url": "https://www.twindo.com/blog/how-design-build-firm-woodhull-uses-twindo-to-close-more-contracts/",
+            "date": "2026-07-02T14:24:42-07:00",
+            "excerpt": "&#8220;You mean I gotta pay you $4,000 to measure this building before we can do anything interesting?&#8221;  That&#8217;s the pushback Patrick Boothe, partner and principal architect at Woodhull, heard from clients.  Before Twindo, that&#8217;s exactly how the process worked: send a team member to hand measure the site, build the model from scratch, and only [&hellip;]"
+        },
+        {
+            "title": "How to Evaluate a Scan to CAD Service: 7 Questions You Should Be Asking",
+            "url": "https://www.twindo.com/blog/how-to-evaluate-a-scan-to-cad-service-7-questions-you-should-be-asking/",
+            "date": "2026-07-02T10:46:38-07:00",
+            "excerpt": "Not all Scan to CAD tools are built the same. If you&#8217;re evaluating options or switching from a previous provider, here&#8217;s what to ask before you commit. 1. How accurate are the deliverables, and how is that accuracy verified? Accuracy claims vary widely, and not all of them are measured the same way. Ask specifically [&hellip;]"
+        },
+        {
+            "title": "5 Things Architects Should Know Before Their First Twindo Scan",
+            "url": "https://www.twindo.com/blog/architecture/5-things-architects-should-know-before-their-first-twindo-scan/",
+            "date": "2026-07-01T09:00:27-07:00",
+            "excerpt": "If you&#8217;ve been wondering whether a phone-based scan can hold up in a real architecture workflow, you&#8217;re not alone. Most architects come to us with questions about Twindo Scan to CAD. 12,000+ pros use Twindo; here’s what they tell us once they try it for themselves. 1. Scanning is faster than you think, and that [&hellip;]"
+        },
+        {
+            "title": "The Cost of Working From Different Versions of Reality",
+            "url": "https://www.twindo.com/blog/3d-modeling/the-cost-of-working-from-different-versions-of-reality/",
+            "date": "2026-06-24T16:28:02-07:00",
+            "excerpt": "Modern projects involve more stakeholders, more data, and more complexity than ever before. Designers, architects, engineers, contractors, owners, and facilities teams all need access to accurate information about the spaces they work in. Yet many organizations still manage that information across disconnected systems, folders, and workflows. The result is a surprisingly common problem: everyone believes [&hellip;]"
+        },
+        {
+            "title": "How Accurate Is LiDAR Scanning? What 1–2% Means for Your CAD/BIM Files",
+            "url": "https://www.twindo.com/blog/how-accurate-is-lidar-scanning/",
+            "date": "2026-06-24T14:52:52-07:00",
+            "excerpt": "One question we hear all the time is, &#8220;How accurate is a phone scan, really?&#8221; It&#8217;s a fair question. We’re diving in on what you can expect for accuracy in a Scan to CAD workflow, as well as how to potentially increase that accuracy even further. Twindo Scan to CAD Accuracy When following Twindo&#8217;s scanning [&hellip;]"
+        },
+        {
+            "title": "What Makes an As-Built Model Truly Design-Ready?",
+            "url": "https://www.twindo.com/blog/what-makes-an-as-built-model-truly-design-ready/",
+            "date": "2026-06-16T17:05:50-07:00",
+            "excerpt": "An as-built model or drawing can look complete at first glance. The measurements are there. The walls are in place. Everything appears to be where it should be. But when teams talk about a design-ready CAD model, they’re talking about more than whether a file looks correct. They’re talking about whether they can actually work [&hellip;]"
+        },
+        {
+            "title": "What Is Twindo Scan to CAD and Do You Actually Need It?",
+            "url": "https://www.twindo.com/blog/what-is-twindo-scan-to-cad/",
+            "date": "2026-06-15T13:59:59-07:00",
+            "excerpt": "If you&#8217;ve spent hours measuring a space by hand, sent someone back to a job site just to verify a single dimension, or started drafting and realized you&#8217;re missing the one measurement that matters, Twindo Scan to CAD was built with you in mind. What is Scan to CAD? Twindo Scan to CAD starts with [&hellip;]"
+        },
+        {
+            "title": "I’ve Helped Transform Hundreds of Homes. Here’s What the Best Remodels Have in Common",
+            "url": "https://www.twindo.com/case-study/ive-helped-transform-hundreds-of-homes-heres-what-the-best-remodels-have-in-common/",
+            "date": "2026-06-15T12:43:55-07:00",
+            "excerpt": "I’ve spent years helping homeowners see what’s possible in their homes. Kitchens, bathrooms, whole-home renovations: every project starts with helping someone see what their home could become. But before any of that happens, there’s another question that has to be answered first: What are we actually working with? For most of my career, getting that [&hellip;]"
+        },
+        {
+            "title": "After 37 Years of Kitchen Design, It Takes a Lot to Impress Me",
+            "url": "https://www.twindo.com/case-study/after-37-years-of-kitchen-design-it-takes-a-lot-to-impress-me/",
+            "date": "2026-06-08T10:10:25-07:00",
+            "excerpt": "I’ve been designing kitchens and baths for more than 37 years. In that time, I’ve seen just about every tool, technology, and workflow promise to make the process easier, faster, or more accurate. And I can comfortably say: Most fall short.  I’ve always believed that great design starts with great information. Before I can think [&hellip;]"
+        },
+        {
+            "title": "AI with a Human Touch: Why Twindo Doesn’t Let Machines Do It All",
+            "url": "https://www.twindo.com/blog/ai-with-a-human-touch-why-twindo-doesnt-let-machines-do-it-all/",
+            "date": "2026-06-03T14:33:55-07:00",
+            "excerpt": "Every AI-powered platform promises instant outputs, full automation, and fewer humans. When it comes to architecture, construction design, and reality capture workflows, that often translates to “scan a space and get your AI-generated as-builts in seconds.” Sounds great in theory. The issue is that “instant” and “usable” are not the same thing. Automated outputs can [&hellip;]"
+        },
+        {
+            "title": "How to Get the Most Out of AIA26",
+            "url": "https://www.twindo.com/blog/how-to-get-the-most-out-of-aia26/",
+            "date": "2026-05-28T10:05:49-07:00",
+            "excerpt": "The American Institute of Architects’ Conference on Architecture &amp; Design is hands-down one of the best events of the year. And if you&#8217;ve been before, you know how fast it goes.  AIA26 is June 10–13 in San Diego with the Expo floor open June 11 and 12. With so little time to pack everything in, [&hellip;]"
+        },
+        {
+            "title": "From 9 Projects to 40: How Michaela Shields Scaled M. Shields Design With Twindo",
+            "url": "https://www.twindo.com/case-study/m-shields-design-scales-with-twindo/",
+            "date": "2026-05-20T10:45:26-07:00",
+            "excerpt": "For interior designer Michaela Shields, founder of M. Shields Design, the problem was never creativity. It was time. Before Twindo, every project began with a tape measure, hand sketches, and hours spent rebuilding spacesmanually in CAD. Measuring existing conditions could take anywhere from 30 minutes to 4 hours, depending on the scope. Then came another [&hellip;]"
+        },
+        {
+            "title": "3 Ways to Get Your As-Built Files Faster",
+            "url": "https://www.twindo.com/blog/3-ways-to-get-your-as-built-files-faster/",
+            "date": "2026-05-06T13:49:25-07:00",
+            "excerpt": "Projects often slow down during design or construction. But in many cases, the slowdown starts earlier, when a team needs a clear understanding of the existing space and doesn’t have it. That gap between the site and a usable set of as-built files is where time starts to slip and uncertainty compounds. Traditionally, getting from [&hellip;]"
+        },
+        {
+            "title": "What’s New in Twindo: Product Updates May 2026",
+            "url": "https://www.twindo.com/blog/whats-new-in-twindo-product-updates-may-2026/",
+            "date": "2026-05-06T11:58:42-07:00",
+            "excerpt": "We&#8217;re always working to keep your deliverables up to date and your workflow running smoothly. Here&#8217;s a look at what&#8217;s new, from a SketchUp version upgrade to expanded tools for keeping your project documentation in one place. 1) Expanded Spatial Assets formats for your documentation needs Project details are too often scattered — photos on [&hellip;]"
+        },
+        {
+            "title": "Capture Photos While You Scan",
+            "url": "https://www.twindo.com/blog/capture-photos-while-you-scan/",
+            "date": "2026-04-29T12:27:34-07:00",
+            "excerpt": "Turning a Twindo scan into a 3D CAD/BIM model is a critical benefit for our customers, but even with the deep spatial data that a model provides, sometimes you still need a photo. Maybe you need to capture the extent of damage on a specific wall or want to look at the wall paneling on [&hellip;]"
+        },
+        {
+            "title": "Stop Drawing From Scratch: How Twindo Plan to CAD Saves Teams Hours of Work on Every Project",
+            "url": "https://www.twindo.com/blog/stop-drawing-from-scratch-how-twindo-plan-to-cad-saves-teams-hours-of-work-on-every-project/",
+            "date": "2026-04-20T09:35:57-07:00",
+            "excerpt": "Starting a project with existing plans should be a head start. But too often, those floor plans just mean more work.  Before you can design anything, you&#8217;re rebuilding models that already exist… just in the wrong format. It&#8217;s a common time sink in design and building work, and it&#8217;s now almost entirely avoidable. The Work [&hellip;]"
+        },
+        {
+            "title": "Capture More Than the Scan: Expanded Spatial Assets for Your Documentation Needs",
+            "url": "https://www.twindo.com/blog/expanded-spatial-assets-for-your-documentation-needs/",
+            "date": "2026-04-13T13:33:07-07:00",
+            "excerpt": "Too often, project details are scattered. Images live on someone&#8217;s camera roll, a shared folder isn’t actually shared, and sticky notes don’t survive the trip back to the office. When the documentation that supports your work lives in multiple places, things fall through the cracks. Field teams have to revisit the site. Office teams make [&hellip;]"
+        },
+        {
+            "title": "What Spatial Intelligence Really Means and Why It&#8217;s Changing How Teams Build",
+            "url": "https://www.twindo.com/blog/what-spatial-intelligence-really-means-and-why-its-changing-how-teams-build/",
+            "date": "2026-04-09T09:48:17-07:00",
+            "excerpt": "Every team that works on a physical space knows the drill. You go to the site, measure everything, take photos, jot down notes, then head back to the office and try to reconstruct what you saw.  Somewhere along the way, something slips. A dimension feels off. A detail doesn’t line up. You second-guess yourself, then [&hellip;]"
+        },
+        {
+            "title": "These Sound Like April Fool’s Jokes. They’re Not.",
+            "url": "https://www.twindo.com/blog/these-sound-like-april-fools-jokes-theyre-not/",
+            "date": "2026-03-31T23:58:19-07:00",
+            "excerpt": "Instead of celebrating April 1st with a classic prank post (&#8220;Introducing Twindo for Dog Houses!&#8221;), we want to address the common challenges that teams face and show you the real solutions. #1 The architect re-measuring a building they already designed. At a major renovation project kickoff, a senior architect pulls out a measuring tape for [&hellip;]"
+        },
+        {
+            "title": "As-Built Drawings: What They Are, Why They Matter, and How They’re Created Today",
+            "url": "https://www.twindo.com/blog/as-built-drawings/",
+            "date": "2026-03-20T13:04:16-07:00",
+            "excerpt": "Ever tried to renovate a building using outdated drawings? Then you know how fast things can go sideways. A wall ends up two inches off from the plan. A beam appears where no beam was ever supposed to be. Suddenly, the team is back on site with a tape measure, trying to figure out what [&hellip;]"
+        },
+        {
+            "title": "What’s New in Twindo: Product Updates for February 2026",
+            "url": "https://www.twindo.com/blog/whats-new-in-twindo-product-updates-february-2026/",
+            "date": "2026-02-25T15:36:56-07:00",
+            "excerpt": "Twindo is constantly innovating and improving our offerings. In fact, we ship a new version of our scanning app every two weeks, in addition to making other tweaks under the hood on our web app. We recently rolled out several larger updates designed to simplify your workflow, reduce friction, and make collaboration easier across your [&hellip;]"
+        },
+        {
+            "title": "Canvas Is Now Twindo",
+            "url": "https://www.twindo.com/blog/canvas-is-now-twindo/",
+            "date": "2026-02-05T05:33:59-07:00",
+            "excerpt": "Same trust. More clarity. Even more capability. Canvas is now Twindo. And it&#8217;s way more than just a new name. It’s an expanded, more powerful platform built for how teams actually work with spaces today. Twindo brings together everything professionals need to understand the spaces they design, build, and manage, without extra site visits or [&hellip;]"
+        },
+        {
+            "title": "Introducing: Remote Scanning with Invite to Capture",
+            "url": "https://www.twindo.com/blog/introducing-remote-scanning-with-invite-to-capture/",
+            "date": "2026-02-04T15:32:41-07:00",
+            "excerpt": "Too many projects get delayed before you even get going when you&#8217;re waiting on site access, coordinating schedules, or making unnecessary trips just to measure and take pictures. When capturing existing conditions depends on being onsite, progress stalls and costs add up fast. Our latest feature release, Invite to Capture, is officially live, and it’s [&hellip;]"
+        },
+        {
+            "title": "🏚️ The Return to the site: A remodeling horror story",
+            "url": "https://www.twindo.com/blog/scan-once-measure-forever/",
+            "date": "2025-10-30T07:00:30-07:00",
+            "excerpt": "By Sarah Bird, CEO at Twindo Every remodeler knows the feeling. The project’s wrapped, the gear’s packed, and you’re halfway home when the text comes in: “Hey… did we ever measure behind the stairwell?” Cue the thunderclap. It’s the classic horror story of remodeling: the return to site. The scramble for keys after hours, the [&hellip;]"
+        },
+        {
+            "title": "Celebrating a $10M Investment in Canvas to Fuel Growth and Innovation",
+            "url": "https://www.twindo.com/blog/company-announcements/celebrating_10m_investment_canvas/",
+            "date": "2025-01-29T08:53:32-07:00",
+            "excerpt": "At Twindo, we’re incredibly excited to announce a $10 million Series A-1 funding round. This isn’t just a financial milestone—it’s a powerful validation of our mission and the execution that has brought us to this point. It’s a testament to the hard work of our team, the trust of our investors, and the incredible support [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: McManus Kitchen &#038; Bath",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-mcmanus-kitchen-bath/",
+            "date": "2024-09-10T03:26:24-07:00",
+            "excerpt": "“Our whole process is about service, speed, and making it easier for our clients. Twindo helps us do all three better.” – Paul McManus, President and Owner, McManus Kitchen &amp; Bath McManus Kitchen &amp; Bath is a design-build firm focused on kitchen and bathroom remodeling in Tallahassee, Florida. Led by Paul McManus, the six-person firm [&hellip;]"
+        },
+        {
+            "title": "From Hours to Minutes: How Twindo Transforms Interior Design Workflows",
+            "url": "https://www.twindo.com/case-study/from-hours-to-minutes-how-canvas-transforms-interior-design-workflows/",
+            "date": "2024-09-09T17:35:44-07:00",
+            "excerpt": "From Hours to Minutes: How Twindo Transforms Interior Design Workflows Design isn&#8217;t just about aesthetics; it&#8217;s about function, precision, and efficiency. Yet, for many interior designers, time-consuming manual measurements and recreating existing layouts can erode hours that might be better spent on creativity and expression. Enter Twindo, a revolutionary tool that is reshaping the way [&hellip;]"
+        },
+        {
+            "title": "3D Scan to CAD with Twindo: Automatically Measure and Model Your As-Built Drawings",
+            "url": "https://www.twindo.com/blog/3d-scan-to-cad-with-canvas-automatically-measure-and-model-your-as-built-drawings/",
+            "date": "2024-08-26T04:07:51-07:00",
+            "excerpt": "3D capture has changed the way existing spaces are documented and measured. With the advent of laser scanners and LiDAR scanning apps that run on your phone or tablet, the days of spending countless hours on the clunky process of taking field measurements are long gone. However, most 3D scanning solutions still require turning those [&hellip;]"
+        },
+        {
+            "title": "Understanding CAD and Its Role in Home Remodeling and Construction",
+            "url": "https://www.twindo.com/blog/understanding-cad-and-its-role-in-home-remodeling-and-construction/",
+            "date": "2024-06-24T04:05:52-07:00",
+            "excerpt": "Before the advent of computer-aided design (CAD), most architectural and engineering drawings were sketched manually on giant sheets of paper. If designs needed to be changed, you couldn’t simply edit with a few mouse clicks. You literally had to go back to the drawing board with a pencil and paper. Today, CAD is an indispensable [&hellip;]"
+        },
+        {
+            "title": "Ahead of the Curve: Michelle Blemel&#8217;s Fusion of Design and Technology",
+            "url": "https://www.twindo.com/case-study/ahead-of-the-curve-michelle-blemels-fusion-of-design-and-technology/",
+            "date": "2024-04-30T04:03:06-07:00",
+            "excerpt": "In Pasadena, California, interior designer Michelle Blemel is at the forefront of blending traditional design principles with cutting-edge technology. Her studio, Amberleaf, specializing in both residential and commercial interior design, has garnered acclaim for its ability to tailor projects to each client&#8217;s unique vision, offering a comprehensive array of services from furniture selection to complete renovations. But [&hellip;]"
+        },
+        {
+            "title": "The Ultimate Guide To Tech Tools for Today&#8217;s Remodeler",
+            "url": "https://www.twindo.com/blog/the-ultimate-guide-to-tech-tools-for-todays-remodeler/",
+            "date": "2024-03-14T04:01:24-07:00",
+            "excerpt": "In today&#8217;s remodeling world, embracing technological advancements is like upgrading from a flip phone to the latest iPhone. By integrating the right mix of technology, you&#8217;re not just keeping pace but revolutionizing your approach. In the wake of technology&#8217;s march forward, we&#8217;ve witnessed a renaissance in the tools at our disposal. Remodelers have embraced this [&hellip;]"
+        },
+        {
+            "title": "Innovating Spaces: Ranney Blair Weidmann&#8217;s Revolution in Design with the Twindo App",
+            "url": "https://www.twindo.com/blog/innovating-spaces-ranney-blair-weidmanns-revolution-in-design-with-the-canvas-app/",
+            "date": "2024-02-22T03:54:40-07:00",
+            "excerpt": "In the creative world of design and construction, where creativity meets precision, the introduction of the Twindo app marks a pivotal shift. This innovative app is changing how real-world spaces are digitized, blending precision with efficiency like never before. Leading this transformation is Ranney Blair Weidmann, an award-winning remodeling firm in Atlanta. Celebrated for their inspired [&hellip;]"
+        },
+        {
+            "title": "Twindo at IBS/KBIS 2024",
+            "url": "https://www.twindo.com/blog/canvas-at-ibs-kbis-2024/",
+            "date": "2024-02-15T03:52:23-07:00",
+            "excerpt": "We&#8217;re thrilled to be exhibiting at the International Builders&#8217; Show 2024! You can find us at IBS booth W3475 in the West Hall. KBIS attendees have full access to the IBS exhibit halls, too. You can get a complimentary IBS/KBIS Expo Hall pass from us by clicking here. Our booth will highlight our customers&#8217; time savings [&hellip;]"
+        },
+        {
+            "title": "Building Hope: How Rescue Rebuild Is Redefining Shelter Spaces with Twindo",
+            "url": "https://www.twindo.com/blog/building-hope-how-rescue-rebuild-is-redefining-shelter-spaces-with-canvas/",
+            "date": "2023-12-24T03:47:30-07:00",
+            "excerpt": "A structure is just that, a structure, until vision and purpose turn it into something more. That “something more” is what the team at Greater Good Charities’ Rescue Rebuild strives for every day. They started with renovating animal shelters, but they soon realized the potential to grow beyond that. Now they build comforting, enriching spaces for [&hellip;]"
+        },
+        {
+            "title": "Your Quick Guide for Designing Spaces That Entertain: Interior Designers Share Their Expert Tips and Tools",
+            "url": "https://www.twindo.com/blog/your-quick-guide-for-designing-spaces-that-entertain-interior-designers-share-their-expert-tips-and-tools/",
+            "date": "2023-12-20T03:49:53-07:00",
+            "excerpt": "The art of creating spaces for entertaining is about creativity and transformation. It&#8217;s about taking a room, a patio, or any area of a home and infusing it with purpose, personality, and a readiness to host memorable gatherings. Interior designers are like magicians in this regard, transforming ordinary spaces into extraordinary settings for entertainment, relaxation, [&hellip;]"
+        },
+        {
+            "title": "How Twindo Uses LiDAR to Scan Spaces and Generate As-Built Models",
+            "url": "https://www.twindo.com/blog/how-canvas-uses-lidar-to-scan-spaces-and-generate-as-built-models/",
+            "date": "2023-11-28T03:38:43-07:00",
+            "excerpt": "Gone are the days when architects, remodelers, and interior designers would walk a house with a 30-foot tape measure for remodeling. This laborious process involved hours of measurement and sketching, and then hours of translating those sketches into CAD drawings. Now, with a tool as common as an iPhone Pro, equipped with the Twindo app, [&hellip;]"
+        },
+        {
+            "title": "Designing the Future: How Twindo is Streamlining Architecture Workflows",
+            "url": "https://www.twindo.com/case-study/designing-the-future-how-canvas-is-streamlining-architecture-workflows/",
+            "date": "2023-09-26T03:28:06-07:00",
+            "excerpt": "Architects thrive on bringing visions to life and transforming spaces. However, the demanding nature of the profession often means you’re spending time in meetings, managing projects, and handling paperwork and documentation. Traditional methods of creating as-built drawings, field measurements, and CAD drawings can be time-consuming and expensive. Enter Twindo, a revolutionary tool that transforms how [&hellip;]"
+        },
+        {
+            "title": "The Ultimate Guide to Using the Twindo LiDAR 3D Measurements App",
+            "url": "https://www.twindo.com/blog/the-ultimate-guide-to-using-the-canvas-lidar-3d-measurements-app/",
+            "date": "2023-08-21T03:25:55-07:00",
+            "excerpt": "Are you ready to unlock the potential of the Twindo for your remodeling, interior design, or architectural projects? Let’s take a look at the key features of Twindo: LiDAR 3D Measurements and learn how it can streamline your workflow, saving you both time and money. Efficient Scanning Techniques While the app interface is pretty straightforward, [&hellip;]"
+        },
+        {
+            "title": "Achieve More with Twindo: LiDAR 3D Measurements for As-Built Drawings",
+            "url": "https://www.twindo.com/blog/explainer/1416-2/",
+            "date": "2023-07-18T03:21:35-07:00",
+            "excerpt": "Efficient documentation is crucial in the fast-paced world of remodeling, architecture, and interior design. As-built drawings are invaluable documents that serve as a comprehensive record of the existing conditions, capturing modifications and changes made during the building process and playing a vital role in project completion and future renovations. Traditional methods of creating as-built drawings [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Christensen Design Studio",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-christensen-design-studio/",
+            "date": "2022-10-10T03:43:42-07:00",
+            "excerpt": "“Using Twindo is like having another employee, a design assistant who prepares models for me. Twindo has enabled me to work faster and easier.” – Shannon Christensen, Christensen Design Studio Shannon Christensen, NCIDQ, IDS is an interior designer based in Portland, Oregon. She takes on about twenty projects per year on her own, in addition to assisting other interior designers with SketchUp [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Lotus Construction Group",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-lotus-construction-group/",
+            "date": "2022-09-10T02:55:39-07:00",
+            "excerpt": "&#8220;Most of my competitors crawl around on the floor with a tape measure and paper. I&#8217;m walking around literally pulling their space into an iPad.&#8221; &#8211; Walter Faustlin, Designer &nbsp; Lotus Construction Group is a 6-person design-build and remodeling firm located in Southern California which performs about 12 high-end renovation projects per year. The Challenge Creating [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Thornton Weiler Architect",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-thornton-weiler-architect/",
+            "date": "2022-08-08T03:12:49-07:00",
+            "excerpt": "“The combination of Twindo and Chief Architect allows us to take on more work than we did in the past. No more tedious measuring and creating as-built plans!” &#8211; Thornton Weiler, Architect Thornton Weiler is an architect based in the San Francisco Bay Area. Weiler and his associate, Neil Brorsen, offer a full range of architectural [&hellip;]"
+        },
+        {
+            "title": "A Twindo Case Study: Noz Design",
+            "url": "https://www.twindo.com/case-study/a-canvas-case-study-noz-design/",
+            "date": "2022-06-10T03:33:19-07:00",
+            "excerpt": "“With over 20 active projects at a time, there’s always something else we could be doing. Time and energy saved is time and energy well spent somewhere else.” – Noz Nozawa, Principal Interior Designer + Owner, Noz Design Noz Design is an interior design firm based in San Francisco, California led by principal designer Noz Nozawa. In 2020, Noz was [&hellip;]"
+        }
+    ],
+    "social_profiles": [
+        "https://www.linkedin.com/company/hellotwindo",
+        "https://x.com/hellotwindo",
+        "https://www.facebook.com/hellotwindo",
+        "https://www.instagram.com/hellotwindo",
+        "https://www.youtube.com/channel/UCnjsdpBKUVqtHmEc6ewGlhQ"
+    ],
+    "resources": {
+        "website": "https://www.twindo.com",
+        "app": "https://app.twindo.com",
+        "app_store": "https://apps.apple.com/us/app/twindo-formerly-canvas/id1169235377",
+        "signup": "https://app.twindo.com/signup",
+        "how_it_works": "https://www.twindo.com/how-twindo-works/",
+        "how_to_scan": "https://www.twindo.com/how-to-use-twindo/",
+        "pricing": "https://www.twindo.com/pricing/",
+        "blog": "https://www.twindo.com/category/blog/",
+        "case_studies": "https://www.twindo.com/category/case-study/",
+        "webinars_events": "https://www.twindo.com/webinar-events/",
+        "sample_files": "https://sampledata.twindo.com/twindo-sample-files",
+        "press": "https://www.twindo.com/category/press/",
+        "careers": "https://www.twindo.com/careers",
+        "support": "https://support.twindo.com"
+    }
+}

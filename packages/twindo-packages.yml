@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: npm, PyPI, GitHub org search (2026-07-21)
+notes: >-
+  No first-party public client libraries found. npm search for "twindo" returns
+  only an unrelated third-party package; PyPI has no "twindo" project; the
+  occipital and twindo GitHub orgs publish no Twindo SDK repositories. Twindo
+  advertises "Integrations (SDK + API)" as an enterprise/partner offering — the
+  SDK is distributed privately to partners, not via public registries.
+registries_searched:
+- registry: npm
+  query: twindo
+  result: none first-party
+- registry: pypi
+  query: twindo
+  result: 404
+- registry: github
+  query: orgs occipital, twindo
+  result: no SDK repositories
+packages: []

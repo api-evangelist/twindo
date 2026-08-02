@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://api.twindo.com/v1/
+notes: >-
+  Twindo does not publish public API authentication docs; API + SDK access is an
+  enterprise/partner offering ("Integrations (SDK + API)" per the company's LLM
+  JSON API profile). A live probe of the API host shows a Django REST
+  Framework-style API requiring token authentication.
+evidence:
+- url: https://api.twindo.com/v1/
+  status: 401
+  www_authenticate: Token
+  body: '{"detail":"Authentication credentials were not provided."}'
+  probed: '2026-07-21'
+summary:
+  types: [apiKey]
+  api_key_in: [header]
+schemes:
+- name: TokenAuth
+  type: apiKey
+  in: header
+  scheme_hint: 'Authorization: Token <key> (Django REST Framework TokenAuthentication signaled by WWW-Authenticate: Token)'
+  sources: [https://api.twindo.com/v1/]

@@ -1,0 +1,41 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of www.twindo.com, api.twindo.com, app.twindo.com
+notes: >-
+  No valid /.well-known/ documents are published. app.twindo.com is a single-page
+  app whose catch-all route returns HTTP 200 with the app shell for every path,
+  so its .well-known responses are not real documents and were not saved.
+  Twindo does publish a machine-readable company profile it calls the
+  "LLM JSON API" at https://www.twindo.com/llm-api/ (saved verbatim at
+  llms/twindo-llm-api.json).
+hosts:
+- host: https://www.twindo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://api.twindo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+- host: https://app.twindo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    valid: false
+    note: SPA catch-all returns the app shell, not an RFC 9116 security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    valid: false
+    note: SPA catch-all returns the app shell, not an OIDC discovery document
