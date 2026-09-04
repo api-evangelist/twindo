@@ -23,15 +23,16 @@ deliveryModel:
   method: derived
 accessModel:
   pricing: unknown
-  onboarding: self-serve
+  onboarding: unknown
   trial: false
   try_now: false
   public: false
-  label: Self-serve signup
-  confidence: medium
+  label: Unknown
+  confidence: low
   source:
   - authentication
-  generated: '2026-07-22'
+  - security
+  generated: '2026-09-03'
   method: derived
 image: https://www.twindo.com/wp-content/uploads/2024/09/1208264806111822.kNLjWHflYqS1WJHyqnyq_height640-2.png
 x-type: company
